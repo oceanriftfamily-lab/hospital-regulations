@@ -17,7 +17,7 @@
         }
 
         :root {
-            --primary-teal: #2727ac;
+            --primary-teal: #93A4C1;
             --accent-coral: #E8725D;
             --dark-navy: #0D2238;
             --soft-cream: #F9F5F0;
@@ -387,7 +387,7 @@
         #intro-overlay {
             position: fixed;
             inset: 0;
-            background: radial-gradient(circle at center, #1a1a6c, #0D2238);
+            background: radial-gradient(circle at center, #93A4C1);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -435,7 +435,7 @@
         .logo.main {
             left: 0;
             top: 20px;
-            background: #93A4C1;
+            background: black;
             z-index: 2;
             animation: floatMain 2s ease-in-out infinite;
         }
@@ -452,7 +452,7 @@
             font-size: 2.2rem;
             font-family: 'Playfair Display', serif;
             font-weight: 900;
-            background: linear-gradient(90deg, #fff, #aee1ff);
+            background: black;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             letter-spacing: 2px;
@@ -479,7 +479,8 @@
         .loader-bar {
             width: 0%;
             height: 100%;
-            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            /* background: linear-gradient(90deg, #4facfe, #00f2fe); */
+            background: linear-gradient(90deg, #fff, #0F4C81);
             animation: loading 2s ease forwards;
         }
 
@@ -1143,11 +1144,11 @@
         });
 
         // /* HIDE INTRO */
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.getElementById('intro-overlay').classList.add('hidden')
-            }, 2000);
-        });
+        // window.addEventListener('load', () => {
+        //     setTimeout(() => {
+        //         document.getElementById('intro-overlay').classList.add('hidden')
+        //     }, 2000);
+        // });
 
         function showSection(sectionId) {
             // Hide all sections
