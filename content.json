@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "Quy Định Bệnh Viện",
+    "subtitle": "Hospital Regulations System",
+    "footer": "© 2026 Bệnh Viện - Hospital Regulations System",
+    "footerNote": "Vui lòng tuân thủ đầy đủ các quy định để đảm bảo môi trường làm việc chuyên nghiệp",
+    "intro": {
+      "title": "Ocean Rift",
+      "subtitle": "ft. Apple Meo Meo"
+    }
+  },
+  "nav": [
+    { "id": "section1", "label": "Quy Định Cư Dân" },
+    { "id": "section2", "label": "Quy Định Bác Sĩ" },
+    { "id": "section3", "label": "Trách Nhiệm" },
+    { "id": "section4", "label": "Xử Phạt" },
+    { "id": "section5", "label": "Thi & Điều Kiện" }
+  ],
+  "sections": [
+    {
+      "id": "section1",
+      "header": {
+        "title": "Quy Định Cư Dân",
+        "description": "Các quy định và trách nhiệm của người dân khi đến bệnh viện"
+      },
+      "cards": [
+        {
+          "title": "Quy Định Chung",
+          "type": "regulation-list",
+          "items": [
+            {
+              "number": 1,
+              "content": "Không được mang mặt nạ vào bệnh viện thăm, khám chữa bệnh",
+              "penalty": "Lần 1: Nhắc nhở\nLần 2: BLACKLIST 3 NGÀY + PHẠT 10.000$\nLần 3: BLACKLIST 5 NGÀY + PHẠT 30.000$",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 2,
+              "content": "Không được mang xác hoặc nhờ sự trợ giúp mang về bệnh viện khi đã gọi hỗ trợ từ bác sĩ",
+              "penalty": "PHẠT 10.000$/1TH - Lý do: Làm mất thời gian của bác sĩ",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 3,
+              "content": "Không được đậu xe trái phép trong khu vực bệnh viện",
+              "penalty": "Lần 1: Nhắc nhở\nLần 2: PHẠT 10.000$\nLần 3: BLACKLIST 3 NGÀY + PHẠT 30.000$",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 4,
+              "content": "Không được sử dụng vũ lực trong khuôn viên bệnh viện",
+              "penalty": "Lần 1: BLACKLIST 1 NGÀY + PHẠT 20.000$\nLần 2: BLACKLIST 7 NGÀY + PHẠT 50.000$\nLần 3: BLACKLIST VĨNH VIỄN",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 5,
+              "content": "Khi đã rơi vào trạng thái hôn mê sâu mà vẫn nói chuyện, tranh cãi",
+              "penalty": "PHẠT 2.000$/1TH (Người dân) | 4.000$/1TH (Cảnh sát) | 5.000$ (Bác sĩ) - Lý do: Mất tính chất roleplay",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 6,
+              "content": "Cấm các hành vi điều khiển phương tiện vào trong bệnh viện",
+              "penalty": "Gọi đến cục cảnh sát giải quyết",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 7,
+              "content": "Xúc phạm bác sĩ, có lời lẽ và hành động thô tục, thiếu tôn trọng đối với bác sĩ",
+              "penalty": "BLACKLIST 3 NGÀY + ĐÓNG PHẠT 10.000$",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 8,
+              "content": "Nghiêm cấm lockpick xe Bác sĩ",
+              "penalty": "BLACKLIST 5 NGÀY + ĐÓNG PHẠT 50.000$",
+              "penaltyType": "penalty"
+            }
+          ]
+        },
+        {
+          "title": "Quy Định Về Hành Vi Trong Bệnh Viện",
+          "type": "regulation-list",
+          "items": [
+            {
+              "number": 9,
+              "content": "Khi vào bệnh viện không được để \"La lớn\", không làm ồn trong bệnh viện để tránh làm phiền đến thời gian nghỉ ngơi của bệnh nhân",
+              "penalty": "Lần 1: Nhắc nhở\nLần 2: Blacklist 1 ngày\nLần 3: Phạt bill 20.000$ + Blacklist 3 ngày",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 10,
+              "content": "Nghiêm cấm mọi hành vi kéo xác của bệnh nhân trong thời gian hồi sức",
+              "penalty": "Lần 1: Blacklist 3 ngày\nLần 2: Phạt bill 10.000$ + Blacklist 1 tuần\nLần 3: Phạt bill 30.000$ + Blacklist 1 tháng",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 11,
+              "content": "Người dân không có phân sự trong phòng cấp cứu, xin không vào khi bác sĩ đang cứu bệnh nhận để tránh không cứu được bệnh nhân",
+              "penalty": "Lần 1: Nhắc nhở\nLần 2: Blacklist 5 ngày\nLần 3: Phạt bill 10.000$ + Blacklist 1 tháng",
+              "penaltyType": "penalty"
+            },
+            {
+              "number": 12,
+              "content": "Khi bị bất tỉnh đã gọi bác sĩ:",
+              "list": ["Cư dân tự động đất", "Time out / crash game"],
+              "penalty": "Đề nghị cư dân ra ngoài hỗ trợ y tế báo cho bác sĩ",
+              "penaltyType": "benefit"
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Chú Thích Blacklist",
+          "content": "Khi bị Blacklist người dân có quyền lựa chọn:",
+          "list": ["X3 hóa đơn chữa bệnh thông thường"]
+        },
+        {
+          "title": "Quyền Lợi Cư Dân",
+          "content": "Người dân có quyền tố cáo các nhân viên y tế vi phạm những quy định của bệnh viện đến hòm thư riêng của hỗ trợ y tế (KÈM THEO HÌNH ẢNH VIDEO CHỨNG THỰC) sẽ được nhận phần quà tại bệnh viện."
+        }
+      ]
+    },
+    {
+      "id": "section2",
+      "header": {
+        "title": "Quy Định Bác Sĩ",
+        "description": "Các quy định nghiêm cấm và chuẩn mực nghề nghiệp cho bác sĩ"
+      },
+      "cards": [
+        {
+          "title": "Quy Định Nghiêm Cấm",
+          "type": "regulation-list",
+          "items": [
+            {
+              "number": 1,
+              "content": "Nghiêm cấm hành vi nhận tiền trực tiếp",
+              "penalty": "Người dân có quyền phản ánh ngay cho CẤP CAO CỦA BỆNH VIỆN (Thưởng nóng 10.000$)",
+              "penaltyType": "benefit"
+            },
+            { "number": 2, "content": "Nghiêm cấm hành vi lăng mạ xúc phạm công dân và đồng nghiệp" },
+            { "number": 3, "content": "Nghiêm cấm sử dụng vũ khí khi đang trong ca trực, ONDUTY và mặc trang phục ngành" },
+            { "number": 4, "content": "Nghiêm cấm hành vi mặc trang phục ngành làm việc bẩn hoặc việc riêng" },
+            { "number": 5, "content": "Nghiêm cấm tuyệt đối hành vi hỗ trợ tội phạm với tất cả các hình thức khác nhau" },
+            { "number": 6, "content": "Nghiêm cấm hành vi tuồn vật phẩm bác sĩ" },
+            {
+              "number": 7,
+              "content": "Nghiêm cấm hành vi phạm tội và làm việc sạch khi đang ONDUTY hoặc trong ca trực",
+              "penalty": "BỊ PHÁT HIỆN PHẠT BILL 50.000$",
+              "penaltyType": "penalty"
+            },
+            { "number": 8, "content": "Nghiêm cấm hành vi đánh nhau, gây hấn, giết người tại khu vực bệnh viện" },
+            {
+              "number": 9,
+              "content": "Nghiêm cấm sử dụng trực thăng cho mục đích cá nhân hoặc bay trong khu vực thành phố (chỉ sử dụng trực thăng khi có ca cấp cứu ở ngoài biển hoặc khu vực xa xôi hẻo lánh)",
+              "penalty": "ĐÓNG PHẠT 20.000$ nếu vi phạm hoặc bị người dân phản ánh",
+              "penaltyType": "penalty"
+            },
+            { "number": 10, "content": "Khi OFF DUTY sẽ trở thành công dân bình thường và áp dụng quy định giống như cư dân khác" },
+            {
+              "number": 11,
+              "content": "Công tác trong bệnh viện trên 14 ngày mới được xin ra khỏi ngành và phải xin trước 3 ngày",
+              "penalty": "ĐÓNG PHẠT 100.000$ nếu vi phạm",
+              "penaltyType": "penalty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section3",
+      "header": {
+        "title": "Trách Nhiệm Bác Sĩ",
+        "description": "Quy định trách nhiệm của bác sĩ đối với công dân, đồng nghiệp và công việc"
+      },
+      "grid": [
+        {
+          "title": "Đối Với Công Dân",
+          "list": [
+            "Phải đặt mạng sống của con người lên hàng đầu",
+            "Phải có nghĩa vụ hỗ trợ công dân tuyệt đối, không có ngoại lệ",
+            "Phải giao tiếp nhã nhặn, lịch sự, chuẩn mực với tư cách là nhân viên ban ngành khi tiếp xúc với công dân"
+          ]
+        },
+        {
+          "title": "Đối Với Đồng Nghiệp",
+          "list": [
+            "Phải hòa đồng với đồng nghiệp",
+            "Phải luôn luôn hỗ trợ lẫn nhau trong công việc",
+            "Phải nhiệt tình giúp đỡ nhiệt những thực tập viên"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "title": "Đối Với Công Việc",
+          "type": "grouped-list",
+          "groups": [
+            {
+              "heading": "Tất Cả Các Bác Sĩ:",
+              "list": [
+                "Phải có trách nhiệm với công việc không trốn tránh AFK khi ON DUTY",
+                "Phải có trách nhiệm với phương tiện ban ngành không được vứt lung tung đỗ sai quy định",
+                "Phải mặc đồng phục đúng quy định khi đang trong ca trực",
+                "Phải có giấy xin nghỉ phép trước 1 ngày khi đến ca trực của mình",
+                "Phải đủ thời gian làm việc trước khi chuyển ban ngành hoặc nghỉ việc",
+                "Số lần nghỉ phép không vượt quá 2 ngày trong tuần, vào trễ ca trực không quá 3 lần",
+                "Bác sĩ phải trực tối thiểu 1 tiếng 1 ngày"
+              ]
+            },
+            {
+              "heading": "Quản Lý Cấp Cao:",
+              "list": [
+                "Khi vào ca trực QLBS phải điểm danh phải chụp và gửi vào phần điểm danh trong ứng dụng đỉnh cao",
+                "Phải công bằng không lạm dụng chức quyền, quyền lực đàn áp cấp dưới",
+                "Phải xử lý tốt công việc được giao",
+                "Phải trung thực, làm gương cho cấp dưới",
+                "<strong>CHỨC VỤ CÀNG CAO THÌ TRÁCH NHIỆM CÀNG LỚN</strong>"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quyền Lợi Nhân Viên Bác Sĩ",
+          "type": "simple-list",
+          "list": [
+            "Được quyền phòng vệ chính đáng khi gặp trường hợp nghĩ rằng có thể gây tổn hại đến sức khỏe và tinh thần (phải có body cam hoặc hình ảnh liên quan đến tình huống)",
+            "Được quyền tố giác các hành vi vi phạm quy định chung",
+            "Được đãi ngộ mức lương, thưởng hấp dẫn",
+            "Có quyền \"Blacklist\" các đối tượng: Xúc phạm bác sĩ | Bắt cóc và giết bác sĩ khi đang trong ca trực | Cướp xe ban ngành"
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Quy Định Sẹo Lỗi Vi Phạm",
+          "content": "Cách tính lỗi vi phạm sẽ được quy định theo sẹo:",
+          "badges": [
+            { "color": "#E3F2F7", "text": "SẸO XANH = 1 LỖI VI PHẠM (Có thể xóa liên hệ cấp cao)" },
+            { "color": "#FFE5E5", "text": "SẸO ĐEN = 4 LỖI VI PHẠM TRỞ ĐI (Sẹo đen không thể xóa)" },
+            { "color": "#FFF5E5", "text": "ĐỦ 3 SẸO ĐEN THÌ SA THẢI KHỎI NGÀNH" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section4",
+      "header": {
+        "title": "Mức Phạt & Xử Lý Vi Phạm",
+        "description": "Bảng quy định chi tiết mức phạt cho các lỗi vi phạm"
+      },
+      "tables": [
+        {
+          "title": "Nhân Viên Y Tế",
+          "columns": ["Lỗi Vi Phạm", "Lần 1", "Lần 2", "Lần 3"],
+          "rows": [
+            ["Xúc phạm lăng mạ, thiếu đạo đức, có lời lẽ xúc phạm", "Nhẹ Hạ bậc chức vụ + Đóng phạt 10.000$", "SA THẢI", "-"],
+            ["Tuồn đồ ngành", "Đền bù x5 giá trị vật phẩm", "Đền bù x10 / 1 vật phẩm", "SA THẢI"],
+            ["Out ngành không đủ thời gian làm việc", "100.000$", "-", "-"],
+            ["Hỗ trợ tội phạm", "Phạt 50.000$", "Phạt 100.000$", "SA THẢI"],
+            ["AFK trốn tránh trách nhiệm", "Phạt 10.000$", "Phạt 30.000$", "Phạt 60.000$"],
+            ["Làm việc riêng khi onduty", "Phạt 40.000$", "Phạt 100.000$", "SA THẢI"],
+            ["Vắng mặt không có giấy xin phép", "5.000$", "Phạt 10.000$", "Phạt 30.000$ và Sa thải"],
+            ["Ca trực không ngồi tại phòng trực, không đàm", "Nhắc nhở", "10.000$", "20.000$"],
+            ["Trang phục không đúng quy định", "Nhắc nhở", "40.000$", "80.000$"],
+            ["ON duty làm bẩn", "100.000$ Hạ chức vụ (Tùy theo mức độ)", "150.000$ SA THẢI", "-"],
+            ["Không tôn trọng cấp trên", "Nhắc nhở", "50.000$", "SA THẢI"],
+            ["Đánh nhau trong khu vực bệnh viện", "50.000$", "100.000$", "150.000$"],
+            ["Không ghi hóa đơn, nhận tiền mặt", "Đền bù x20/hóa đơn", "Đền bù x25 / hóa đơn", "Đền bù x50 / hóa đơn sa thải"],
+            ["Điểm danh khống", "100.000$", "150.000$", "SA THẢI THEO MỨC ĐỘ"],
+            ["Xem thường mạng sống", "20.000$", "50.000$", "100.000$"],
+            ["Nghỉ phép, trực trễ ca quá số lần quy định", "20.000$", "50.000$", "100.000$"],
+            ["Điều khiển phương tiện vào trong bệnh viện", "20.000$", "50.000$", "100.000$"]
+          ]
+        },
+        {
+          "title": "Trưởng Ca Và Quản Lý Cấp Cao",
+          "columns": ["Lỗi Vi Phạm", "Mức Phạt"],
+          "rows": [
+            ["Vi phạm 1 trong những vi phạm ở trên", "<strong>X2 LỖI VI PHẠM</strong>"],
+            ["Không gương mẫu", "HẠ BẬC CHỨC VỤ"]
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "title": "Tuyên Dương",
+          "type": "simple-list",
+          "list": [
+            "Tuyên dương các bác sĩ có nghiệp vụ cao, làm tốt các công việc được giao",
+            "Có cơ hội được xem xét để Thăng chức, đảm nhận những vị trí cao hơn trong bệnh viện",
+            "Tán dương những cá nhân xuất sắc đóng góp cao trong công việc",
+            "Khen thưởng khi tố giác được bác sĩ và QLCC lạm dụng chức quyền, vi phạm quy định bệnh viện"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section5",
+      "header": {
+        "title": "Nội Dung Thi & Điều Kiện",
+        "description": "Quy định về kỳ thi và điều kiện tham gia cho nhân viên EMS"
+      },
+      "cards": [
+        {
+          "title": "Nội Dung Thi Gồm",
+          "type": "highlight-list",
+          "items": [
+            {
+              "title": "1. Thực Hành Trực Thăng Cứu Thương (Heli Rescue Test)",
+              "content": "Kiểm tra kỹ năng điều khiển, định vị và hạ cánh an toàn khi thực hiện nhiệm vụ cứu thương bằng trực thăng."
+            },
+            {
+              "title": "2. Lý Thuyết Chuyên Môn (Theory Test)",
+              "content": "Gồm kiến thức y tế cơ bản, quy trình cấp cứu và quy định hoạt động của EMS."
+            },
+            {
+              "title": "3. Xử Lý Tình Huống (Practical Scenario)",
+              "content": "Đánh giá khả năng ứng biến, giao tiếp và phối hợp trong các tình huống khẩn cấp RP."
+            }
+          ]
+        },
+        {
+          "title": "Điều Kiện Tham Gia",
+          "type": "simple-list",
+          "list": [
+            "Hoàn thành đầy đủ ca trực theo quy định",
+            "Không vi phạm nội quy EMS trong thời gian gần đây",
+            "Trang phục gọn gàng, thái độ nghiêm túc khi tham gia thi"
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Lưu Ý Quan Trọng",
+          "content": "Tất cả các ứng viên tham gia thi phải đáp ứng đầy đủ các điều kiện trên. Việc vi phạm bất kỳ điều kiện nào sẽ dẫn đến việc bị loại khỏi kỳ thi."
+        }
+      ]
+    }
+  ]
+}
