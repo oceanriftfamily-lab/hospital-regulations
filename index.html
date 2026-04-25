@@ -44,7 +44,7 @@
         .logo-wrapper { position: relative; width: 240px; height: 240px; margin: 0 auto 1.5rem; }
         .logo { position: absolute; width: 160px; height: 160px; border-radius: 50%; object-fit: cover; }
         .logo.main { left: 0; top: 20px; background: black; z-index: 2; animation: floatMain 2s ease-in-out infinite; }
-        .logo.sub  { right: 0; bottom: 0; opacity: 0.7; animation: floatSub 2s ease-in-out infinite reverse; }
+        .logo.sub  { background-color: white; right: 0; bottom: 0; opacity: 0.7; animation: floatSub 2s ease-in-out infinite reverse; }
         .intro-title {
             font-size: 2.2rem; font-family: 'Playfair Display', serif; font-weight: 900;
             background: black; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
@@ -189,8 +189,8 @@
     <div id="tsparticles"></div>
     <div class="intro-content">
         <div class="logo-wrapper">
-            <img src="./logo-cms.png" class="logo main">
-            <img src="./logo-partner.png" class="logo sub">
+            <img src="./server_logo.png" class="logo main">
+            <img src="./ems_partner_logo.png" class="logo sub">
         </div>
         <h2 class="intro-title" id="intro-title"></h2>
         <p class="intro-sub" id="intro-sub"></p>
@@ -422,7 +422,7 @@ tsParticles.load("tsparticles", {
 window.addEventListener('load', () => {
     setTimeout(() => {
         document.getElementById('intro-overlay').classList.add('hidden');
-    }, 2000);
+    }, 10000);
 });
 </script>
 </body>
